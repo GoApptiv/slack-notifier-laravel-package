@@ -8,7 +8,7 @@ class ExceptionDTO
     private string $stackTrace;
 
     /**
-     * Store Order
+     * Constructor
      */
     public function __construct(string $message, string $stackTrace)
     {

@@ -9,7 +9,7 @@ class RequestDTO
     private string $body;
 
     /**
-     * Store Order
+     * Constructor
      */
     public function __construct(string $endpoint, string $method, string $body)
     {

@@ -11,7 +11,7 @@ class GenerateExceptionMessageBO
     private $exception;
 
     /**
-     * Store Order
+     * Constructor
      */
     public function __construct(string $type, RequestDTO $request, $exception)
     {

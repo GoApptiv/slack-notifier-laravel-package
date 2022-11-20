@@ -28,7 +28,7 @@ EXCEPTION_LOG_SLACK_WEBHOOK_URL=
 
 ## Push Exception Message to Slack Channel
 
-The *PublishUnidentifiedException* listner listens to *UnidentifiedExceptionRaised* event to push message to slack channel.
+The *PublishUnidentifiedException* listener listens to *UnidentifiedExceptionRaised* event to push message to slack channel.
 
 
 ```php
