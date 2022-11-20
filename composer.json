@@ -1,0 +1,25 @@
+{
+    "name": "goapptiv/slack-notifier",
+    "description": "Utility to send notification to Slack channel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "manish-kapadi"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GoApptiv\\SlackNotifier\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GoApptiv\\SlackNotifier\\Providers\\SlackNotifierServiceProvider",
+                "GoApptiv\\SlackNotifier\\Providers\\EventServiceProvider"
+            ]
+        }
+    }
+}
